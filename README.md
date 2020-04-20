@@ -1,6 +1,6 @@
 # Simplest Instant Search replacement
 
-Navigate Google Search results using UP and DOWN keys to help your mouseless workflow. 
+Navigate Google Search results using TAB and shift+TAB keys to help your mouseless workflow. 
 
 There are a ton of other solutions out there, so you might ask why make another? I don't trust chrome extensions for their security, and they're too long to read through for vulnerabilities. So here's a 20-liner, which as you can see does nothing more than what it needs. 
 
