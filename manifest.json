@@ -1,18 +1,16 @@
 {
-  "name": "Page Redder",
-  "description": "Make the current page red",
-  "version": "2.0",
-  "permissions": [
-    "activeTab"
-  ],
-  "content_scripts": [
-    {
-      "matches": ["https://*.google.com/*"],
-      "js": ["contentScript.js"]
-    }
-  ],
-  "browser_action": {
-    "default_title": "Make this page red"
-  },
-  "manifest_version": 2
-}
+    "name": "Simplest Instant Search Replacement",
+    "description": "Navigate Google Search results using Tab and Shift+Tab",
+    "version": "2.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.com/search*"],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "manifest_version": 2
+  }
+  
